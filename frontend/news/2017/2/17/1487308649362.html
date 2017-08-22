@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>КРАСНОДАР, 17 февраля. /ТАСС/. Туман в аэропорту Краснодара стал причиной отправки на запасные аэродромы четырех самолетов из Москвы, Минска и Санкт-Петербурга, сообщили ТАСС в пресс-службе управляющей аэропортом компании "Базэл Аэро"</p>
+
+<p>"Сегодня, 17 февраля, в Международном аэропорту Краснодар на прилет и вылет задержано четыре авиарейса. Причиной задержек стал густой туман в районе аэродрома. В течение ночи два самолета из Москвы, по одному из Минска и Санкт-Петербурга были направлены на запасные аэродромы в Сочи и Ростов-на-Дону", - уточнили в компании.</p>
+
+<p>Сейчас с пассажирами работают представители авиакомпаний.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

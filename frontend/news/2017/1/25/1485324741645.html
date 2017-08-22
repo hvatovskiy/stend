@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 25 января. /ТАСС/. Обладатель титула "временного" чемпиона мира по версии Всемирной боксерской ассоциации (WBA) в весовой категории до 79,38 кг россиянин Дмитрий Бивол 23 февраля проведет бой в Перми против австралийца Роберта Берриджа. Об этом ТАСС сообщили организаторы поединка.</p>
+
+<p>Бивол в последнем поединке 29 ноября прошлого года в Екатеринбурге победил украинца Евгения Махтеенко. Всего в активе 26-летнего серебряного призера Универсиады-2013 и победителя Всемирных игр боевых искусств восемь побед (шесть - нокаутом) и ни одного поражения.</p>
+
+<p>На счету 32-летнего Берриджа 29 побед (21 - нокаутом), пять поражений и одна ничья.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ЕКАТЕРИНБУРГ, 1 февраля. /ТАСС/. Начальник главного управления МЧС по Свердловской области Андрей Заленский уходит в отставку по состоянию здоровья.</p>
+
+<p>"Я увольняюсь согласно закону о воинской службе по болезни. Я пока не знаю, кто займет мое место", - сказал Заленский корреспонденту ТАСС.</p>
+
+<p>Заленский возглавляет ГУ МЧС по Свердловской области с 23 августа 2010 года. В марте 1995 года и в мае 1996 года принимал участие в выполнении боевых задач по нормализации обстановки, восстановлению законности и правопорядка на территории Чечни.</p>
+
+<p>Награжден орденами "За военные заслуги", "Красной звезды", медалью ордена "За заслуги перед Отечеством" второй степени, имеет ряд ведомственных наград.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

@@ -1,0 +1,8 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ДАВОС, 18 января. /ТАСС/. "Лукойл" может озвучить стратегию компании на 10 лет в мае - июне текущего года, заявил ТАСС глава компании Вагит Алекперов.</p>
+
+<p>"Мы сейчас разрабатываем ее. В мае-июне мы озвучим ее инвестиционному сообществу", - сказал он, отвечая на вопрос о том, какие показатели войдут в программу.</p>
+
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

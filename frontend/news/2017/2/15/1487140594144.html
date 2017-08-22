@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ТБИЛИСИ, 15 февраля. /Корр. ТАСС Эка Мехузла/. Разыскиваемый Интерполом Узбекистана гражданин США задержан в аэропорту города Батуми. Об этом сообщило Министерство внутренних дел Грузии.</p>
+
+<p>По данным ведомства, "находящийся в международном розыске 39-летний гражданин США Л.К. разыскивается узбекской стороной за совершение преступлений по статьям "терроризм", "создание криминальной организации", "диверсионные нападения" и "незаконное хранение боеприпасов".</p>
+
+<p>Как сообщается, "гражданин США был задержан в аэропорту Батуми в результате совместно проведенных мероприятий сотрудников тбилисского бюро Интерпола и МВД Грузии. В настоящее время ведутся все необходимые процедуры для экстрадиции гражданина США в Узбекистан".</p>
+
+<p>Какие-либо другие детали пока не сообщаются.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

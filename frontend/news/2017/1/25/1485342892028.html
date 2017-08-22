@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ИРКУТСК, 25 января. /ТАСС/. Посетителей и сотрудников Центрального рынка в Иркутске эвакуировали в связи с сообщением о минировании здания, сообщили в пресс-службе ГУ МВД по региону.</p>
+
+<p>"В полицию потупило анонимное сообщение о наличии подозрительного предмета, похожего на взрывное устройство, в здании Центрального рынка. Проводится проверка, люди эвакуированы", - сказал представитель ведомства.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

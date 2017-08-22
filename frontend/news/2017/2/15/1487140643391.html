@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>КРАСНОДАР, 15 февраля. /Корр. ТАСС Сергей Околов/. Три самолета не смогли совершить посадку в аэропорту Краснодара из-за ночного снегопада. Об этом сообщили ТАСС в пресс-службе управляющей аэропортами Краснодарского края компании "Базэл Аэро".</p>
+
+<p>"В международном аэропорту Краснодар на прилет и вылет задержаны несколько авиарейсов. Причиной задержек стал ночной снегопад и плохая видимость. В течение ночи на запасные аэродромы в Ростов-на-Дону и Минеральные Воды направлены два самолета из Москвы и Минска. Самолет, направлявшийся из Актау в Краснодар, вернулся в аэропорт вылета", - уточнили в компании.</p>
+
+<p>Также изменено время вылета двух рейсов из Краснодара в Москву. Как уточнили в компании, сейчас аэропорт работает в штатном режиме, а пассажирами задержанных рейсов заняты представители авиакомпаний.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

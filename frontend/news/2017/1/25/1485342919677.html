@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 25 января. /ТАСС/. Список иностранных гостей Петербургского международного экономического форума пока окончательно не составлен, но приглашение президенту США Дональду Трампу не направлялось. Об этом заявил пресс-секретарь президента РФ Дмитрий Песков.</p>
+
+<p>"Там (на форуме) будет (премьер-министр Индии Нарендра) Моди - главный гость", - сказал журналистам пресс-секретарь российского лидера.</p>
+
+<p>"Нет", - ответил он на вопрос, направляется ли приглашение на форум Трампу.</p>
+
+<p>При этом представитель Кремля не исключил, что в Санкт-Петербург приедет кто-то из европейских лидеров. "Пока неизвестно, пока еще далеко (до форума)", - отметил он.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

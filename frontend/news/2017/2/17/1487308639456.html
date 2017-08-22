@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>СОЧИ, 17 февраля. /ТАСС/. Взрыв газа произошел в бараке в поселке Мирный в Адлерском районе Сочи, сведения о пострадавших выясняются, сообщил ТАСС источник в оперативных службах.</p>
+
+<p>"Взрыв газа произошел в поселке Мирный в доме номер 6 в бараке на четыре квартиры. В доме выбиты стекла, внутри имеются небольшие разрушения. Данных о пострадавших пока нет", - сказал собеседник агентства.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p><strong>Вечером 12 февраля очевидец сообщил о том, что в Турочакском районе Республики Алтай, в районе мыса Кокши на озере Телецкое, упал вертолет Robinson, на борту которого предположительно находились пять человек.</strong></p>
+
+<p><strong>По информации источника ТАСС, среди пассажиров были бывший вице-премьер правительства республики Анатолий Банных, его жена и еще два человека, за штурвалом - пилот Дмитрий Ракитский.</strong></p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

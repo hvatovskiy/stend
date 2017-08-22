@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 26 февраля. /ТАСС/. Россиянин Владимир Федосеев с 5 баллами вышел в единоличные лидеры традиционного шахматного фестиваля "Аэрофлот Опен", который проходит в Москве.</p>
+
+<p>В шестом туре россиянин обыграл соотечественника Евгения Наера, который лидировал перед началом игрового дня. У ближайших преследователей Федосеева и Наера, еще одного представителя России Дениса Хисматуллина и Ильи Смирина из Израиля по 4,5 очка.</p>
+
+<p>Впервые фестиваль "Аэрофлот Опен" прошел в российской столице в 2002 году, в разные годы основной турнир выигрывали Сергей Рублевский, Баадур Джобава, Ян Непомнящий. В 2013 году в рамках фестиваля турнир по быстрым шахматам выиграл недавний претендент на шахматную корону Сергей Карякин, а год назад победа досталась Наеру, который по дополнительным показателям опередил Бориса Гельфанда из Израиля.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

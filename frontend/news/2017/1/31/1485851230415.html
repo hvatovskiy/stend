@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 31 января. /ТАСС/. Курс доллара к рублю на Московской бирже на открытии торгов во вторник вырос по сравнению с уровнем закрытия предыдущих торгов на 4 копейки и составил 59,97 рубля.</p>
+
+<p>Индекс ММВБ на открытии торгов Московской биржи снизился на 0,1% и составил 2233 пункта, индекс РТС - на 0,2%, до отметки 1173,73 пункта.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

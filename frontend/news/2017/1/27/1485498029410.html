@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 27 января. /ТАСС/. Сотрудники уголовного розыска задержали участников этнической группы, которая специализировалась на кражах и грабежах в Подмосковье. Как сообщила ТАСС начальник пресс-службы областной полиции Татьяна Петрова, у задержанных изъято три единицы огнестрельного оружия.</p>
+
+<p>"Подозреваемые в серии разбойных нападений и ограблениях предпринимателей, а также кражах из квартир задержаны сотрудниками угрозыска в ходе оперативных мероприятий. Ими оказались четверо москвичей, трое из которых ранее судимы", - сказала Петрова.</p>
+
+<p>По данным полиции, одно из последних нападений грабители совершили в подмосковном городе Люберцы, где в ходе нападения похитили у предпринимателя сумку с полуфабрикатами золотых изделий весом 7,5 кг на общую сумму 10 млн рублей.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

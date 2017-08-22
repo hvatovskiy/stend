@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 25 января. /ТАСС/. Вратарь "Сент-Луиса" Картер Хаттон признан первой звездой дня в Национальной хоккейной лиге. Об этом сообщает пресс-служба НХЛ.</p>
+
+<p>Хаттон отразил 34 броска в матче с "Питтсбургом" (3:0).</p>
+
+<p>Голкипер "Оттавы" Майк Кондон, отразивший 31 бросок в матче с "Вашингтоном" (3:0), стал второй звездой.</p>
+
+<p>Тройку лучших замкнул нападающий "Баффало" Джек Айкел, отметившийся двумя заброшенными шайбами во встрече с "Нэшвиллом" (5:4 ОТ).</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

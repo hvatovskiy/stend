@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 25 января. /ТАСС/. Россия примет участие в Мюнхенской конференции по безопасности, но пресс-секретарь президента РФ Дмитрий Песков не знает, кто возглавит делегацию.</p>
+
+<p>"Не знаю, не могу ответить, кто поедет, но сам он (президент РФ Владимир Путин) точно не поедет", - сказал представитель Кремля.</p>
+
+<p>Он заверил, что от России кто-то будет, но на каком уровне - пока не готов сказать.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

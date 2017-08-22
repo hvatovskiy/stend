@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 15 февраля. /ТАСС/. Нападающий клуба "Виннипег" Патрик Лайне признан первой звездой игрового дня в Национальной хоккейной лиге (НХЛ). Об этом сообщает пресс-служба лиги.</p>
+
+<p>В победной игре с "Далласом" (5:2) форвард отметился тремя заброшенными шайбами. Лайне стал первым новичком в НХЛ за 24 года, оформившим не менее трех хет-триков в дебютном сезоне.</p>
+
+<p>Вторым в списке лучших игроков дня стал вратарь "Анахайма" Джон Гибсон, отразивший все 37 бросков по своим воротам в игре с "Миннесотой" (1:0).</p>
+
+<p>Третьей звездой дня признан голкипер "Питтсбурга" Мэттью Мюррей, оформивший шатаут (29 отраженных бросков) в матче с "Ванкувером" (4:0).</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

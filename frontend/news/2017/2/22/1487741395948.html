@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ПЕКИН, 22 февраля. /Корр. ТАСС Алексей Селищев/. Мощный взрыв стал причиной гибели трех человек и ранения еще 21 на предприятии, расположенном в провинции Ляонин (Северо- Восточный Китай). Об этом сообщает Центральное китайское телевидение.</p>
+
+<p>Инцидент произошел вечером 21 февраля, в здании компании, которая специализируется на продаже взрывчатых веществ.</p>
+
+<p>На месте ЧП работают спасатели. Уточняются данные о точном числе пострадавших, ведется расследование причин инцидента.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 25 января. /ТАСС/. Любое проявление русофобии должно встречать практические ответы. Об этом заявил министр иностранных дел России Сергей Лавров, выступая на "правительственном часе" в Госдуме.</p>
+
+<p>"В отношении притеснения русскоязычных в странах Прибалтики, мы постоянно говорим об этом на самых разных международных площадках, включая ООН, ОБСЕ, Совет Европы, различные комитеты, - сказал министр. - И на каждый недружественный шаг мы реагируем по двусторонними каналам".</p>
+
+<p>"Я считаю, что русофобия в практическом своем проявлении должна встречать практические ответы, - подчеркнул Лавров. - Каждый раз мы подходим к такого рода вопросам весьма и весьма ответственно".</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

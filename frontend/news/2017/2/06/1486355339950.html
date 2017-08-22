@@ -1,0 +1,13 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 5 февраля. /ТАСС/. "Манчестер Юнайтед" победил "Лестер" со счетом 3:0 в гостевом матче 24-го тура чемпионата Англии по футболу.</p>
+
+<p>Мячи забили Генрих Мхитарян (42-я минута), Златан Ибрагимович (44) и Хуан Мата (49).</p>
+
+<p>"Манчестер Юнайтед" продлил беспроигрышную серию во всех турнирах до 17 игр, одержав первую победу в четырех последних матчах национального первенства. В чемпионате Англии манкунианцы не проигрывают уже 15 встреч кряду.</p>
+
+<p>В турнирной таблице "Манчестер Юнайтед" занимает шестое место, набрав 45 очков. "Лестер" (21) сохранил 16-ю строчку.</p>
+
+<p>В следующем туре "Манчестер Юнайтед" 11 февраля дома сыграет с "Уотфордом", "Лестер" 12 февраля проведет гостевую встречу со "Суонси".</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

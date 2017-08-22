@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p> </p>
+
+<p>О программе мероприятий Года образования и науки Великобритании и России 2017 рассказывают специальный представитель президента РФ по международному культурному сотрудничеству Михаил Швыдкой, замминистра образования и науки РФ Вениамин Каганов, директор Института космических исследований РАН Лев Зелёный, генеральный директор Британского Совета сэр Кирон Деван, главный научный сотрудник МИД Великобритании Робин Граймс, директор лондонского Музея науки Иан Блэтчфорд и директор Британского Совета в России Майкл Берд. Они представляют центральные события программы, а также подводят итоги прошедшего Года языка и литературы Великобритании и России 2016.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

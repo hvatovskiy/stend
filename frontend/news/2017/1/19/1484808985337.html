@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 19 января. /ТАСС/. "Сан-Хосе" одержал победу над "Лос-Анджелесом" со счетом 3:2 в гостевом матче регулярного чемпионата Национальной хоккейной лиги (НХЛ).</p>
+
+<p>В составе победителей заброшенными шайбами отметились Брент Бернс (4-я минута), Томми Уингелс (16) и Джо Павелски (30). У проигравших отличились Таннер Пирсон (6) и Мариан Габорик (36).</p>
+
+<p>В турнирной таблице Западной конференции "Сан-Хосе" занимает пятое место, набрав в 45 матчах 56 очков, "Лос-Анджелес" с 48 очками идет восьмым.</p>
+
+<p>В следующем матче "Сан-Хосе" 20 января на своем льду примет "Тампу", "Лос-Анджелес" 22 января в гостях сыграет с "Нью-Йорк Айлендерс".</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

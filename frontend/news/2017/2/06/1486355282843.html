@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 6 февраля. /ТАСС/. Россиянка Наталья Вихлянцева поднялась со 115-го на 89-е место в рейтинге Женской теннисной ассоциации (WTA), опубликованном на официальном сайте организации.</p>
+
+<p>19-летняя спортсменка на прошлой неделе дошла до полуфинала турнира WTA в Санкт-Петербурге.</p>
+
+<p>Елена Веснина (15-е место в рейтинге) поднялась на одну позицию. Анастасия Павлюченкова (23) уступила одну строчку, как и Дарья Касаткина (28). Екатерина Макарова (39) опустилась на две позиции, Евгения Родина (87) - на четыре.</p>
+
+<p>Возглавляет рейтинг американка Серена Уильямс, на втором месте немка Ангелик Кербер, на третьем - чешка Каролина Плишкова.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

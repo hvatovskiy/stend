@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 20 января. /ТАСС/. Пятьдесят человек эвакуированы после взрыва газового баллона в трехэтажном здании в Люберцах. Об этом ТАСС сообщили в пресс-службе Главного управления МЧС РФ по Московской области.</p>
+
+<p>Взрыв газового баллона произошел в здании на улице Красная. На первом этаже здания расположена сауна, на двух других - офисы. После взрыва пожара не последовало. "Были выбиты плиты на первом и втором этажах, 50 человек покинули здание самостоятельно", - сказал собеседник агентства.</p>
+
+<p>По данным медиков, пострадал один человек, он госпитализирован. На месте происшествия работают пожарно-спасательные подразделения. Причины ЧП устанавливаются.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

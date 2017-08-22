@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 27 февраля. /ТАСС/. Японская конькобежка Нао Кодайра победила на чемпионате мира в спринтерском многоборье, который проходит в Калгари.</p>
+
+<p>По сумме четырех забегов - два на 500 м и два на 1000 м - она набрала 146,390 балла, что является мировым рекордом. Второй стала американка Хизер Бергсма (147,185), третьей - голландка Йорьен Тер Морс (147,495).</p>
+
+<p>Лучшая из россиянок Ольга Фаткулина заняла девятое место (150,385). Екатерина Шихова - 10-я (150,655), Надежда Асеева - 13-я (150,830).</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

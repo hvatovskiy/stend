@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ПЕКИН, 22 февраля. /Корр. ТАСС Алексей Селищев/. Экс-глава группы контроля дисциплины при управлении земельных ресурсов Гуанси-Чжуанского автономного района КНР Ло Вэйго приговорен к тюремному заключению на 15 лет за получение взяток в размере 15 млн юаней ($2,17 млн). Об этом сообщает Центральное китайское телевидение.</p>
+
+<p>"Ло Вэйго признан виновным в злоупотреблении служебным положением и действовал в интересах третьих лиц в делах, связанных с кадровыми назначениями", - говорится в приговоре суда.</p>
+
+<p>Кампания по борьбе с коррупцией была активизирована в Китае после прихода к власти в 2012-2013 годах пятого поколения руководителей во главе с председателем КНР, генеральным секретарем ЦК КПК Си Цзиньпином.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

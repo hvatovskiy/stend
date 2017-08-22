@@ -1,0 +1,13 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 21 февраля. /ТАСС/. Порядка 10% месячной нормы осадков выпало в Москве за несколько часов, сообщили в Гидрометцентре РФ.</p>
+
+<p>Главная метеостанция столицы - ВДНХ - зафиксировала 3 мм осадков.</p>
+
+<p>"Это составляет почти 10% февральской нормы, которая равна 36 мм", - уточнил представитель метеослужбы.</p>
+
+<p>В подмосковном Волоколамске было зафиксировано более 5 мм осадков.</p>
+
+<p>Непогоду в столичный регион принесли атмосферные фронты атлантических циклонов, "ныряющих" из Скандинавии. Вместе с теплом в Москву пришли осадки в виде мокрого снега. Во вторник будет сыро весь день - ожидается до 4 мм осадков, к утру среды выпадет еще около 3 мм.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

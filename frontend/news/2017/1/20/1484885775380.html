@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>НЬЮ-ЙОРК, 20 января. /Корр. ТАСС Кирилл Волков/. Американский актер Мигель Феррер скончался в четверг на 62-м году жизни. Об этом сообщила телекомпания ABC.</p>
+
+<p>По ее данным, актер ушел из жизни дома в Лос-Анджелесе (штат Калифорния). Сообщается, что у него был диагностирован рак.</p>
+
+<p>Феррер известен, в основном, своими ролями в различных сериалах. Он играл в таких телепроектах, как "Морская полиция: Лос-Анджелес" (NCIS: Los Angeles, 2009 - по настоящее время), "Расследование Джордан" (Crossing Jordan, 2001-2007), "Байки из склепа" (Tales from the Crypt, 1989-1996). Одной из самых известных его работ является роль в культовом сериале "Твин Пикс" (Twin Peaks, 1990-1991), возвращение которого на телеэкраны запланировано на май этого года.</p>
+
+<p>Уроженец Санта-Моники (штат Калифорния) также прославился своими многочисленными ролями второго плана на большом экране, сыграв, в частности, в таких известных кинокартинах, как "Робокоп" (RoboCop, 1987), "Горячие головы 2" (Hot Shots! Part Deux, 1993), "Траффик" (Traffic, 2000).</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

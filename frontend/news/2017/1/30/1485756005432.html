@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 30 января. /ТАСС/. Солнечная и морозная погода ожидается в понедельник в Московском регионе. Об этом сообщили в Гидрометцентре РФ.</p>
+
+<p>"Обойдется без осадков, местами не исключена гололедица. Температура воздуха в Москве составит минус 8 - минус 10 градусов, по области будет от 8 до 13 градусов мороза", - уточнил представитель метеослужбы. Ветер южной четверти 5-10 м/с.</p>
+
+<p>Предстоящей ночью при переменной облачности без осадков в Москве столбики термометров опустятся до 14-16, в центре города до 10 градусов ниже нуля, в Подмосковье будет до 12-17 градусов мороза, по области на востоке до 22 градусов мороза. Днем облачно с прояснениями, пройдет небольшой снег. В Москве будет от 6 до 8 градусов мороза, по области - от минус 6 до минус 11 градусов. Ветер юго-западный 4-9 м/ с. На дорогах скользко.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

@@ -1,0 +1,14 @@
+<div class="b-material-text__l js-mediator-article">
+                <p><sup><em>Трансляция ТАСС/Ruptly</em></sup></p>
+
+<p>МОСКВА, 18 января. /ТАСС/. В Лондон прибывает первый грузовой железнодорожный состав из Китая (г. Иу), сообщает оператор сервиса InterRail Holding AG.</p>
+
+<p>Состав проследовал через Казахстан, Россию, Белоруссию, Польшу, Германию, Бельгию и Францию. Общее расстояние маршрута - более 12 тыс. км - поезд прошел за 18 дней.</p>
+
+<p>Отмечается, что Лондон стал 15-м городом в Европе, с которым у Китая теперь есть железнодорожные грузовые перевозки.</p>
+
+<p>Новый маршрут, как ранее сообщало агентство Синьхуа со ссылкой на заявление Китайской железнодорожной корпорации, будет способствовать укреплению торговых связей между Китаем и Великобританией, контактов с Западной Европой, а также послужит целям китайской инициативы "один пояс - один путь" (инициатива объединённых проектов создания "Экономического пояса Шелкового пути" и "Морского Шелкового пути XXI века", прим. ТАСС). </p>
+
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

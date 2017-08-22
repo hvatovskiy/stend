@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 19 января. /ТАСС/. Российский боец смешанного стиля (ММА) Иван Штырков 18 февраля проведет поединок в Челябинске против известного голландца Гилберта Айвела. Об этом ТАСС сообщил исполнительный директор компании "РМК Боксинг промоушнз" Алексей Титов.</p>
+
+<p>"Поединок пройдет 18 февраля в Челябинске", - сказал Титов.</p>
+
+<p>В своем последнем поединке Штырков по прозвищу "Уральский Халк" техническим нокаутом победил известного бразильца Антонио "Бигфута" Силву. Всего в активе 28-летнего россиянина восемь побед и ни одного поражения.</p>
+
+<p>Айвел является известным кикбоксером и бойцом ММА. 40-летний представитель Нидерландов имеет в своем активе 39 побед и 16 поражений в ММА.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

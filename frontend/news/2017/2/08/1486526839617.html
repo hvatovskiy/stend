@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>КРАСНОЯРСК, 8 февраля. /ТАСС/. Суд Центрального района Красноярска запретил сайт, где распространялась информация о возможности заказать убийство. Об этом в среду сообщила прокуратура Красноярского края.</p>
+
+<p>"Прокуратура города обратилась в суд с заявлением о признании информации о возможности заказать убийство, размещенной на сайте, запрещенной к распространению на территории Российской Федерации. Решением суда Центрального района заявление прокурора удовлетворенно", - говорится в сообщении ведомства.</p>
+
+<p>В прокуратуре отмечают, что вход на сайт был свободный и не требовал предварительной регистрации и пароля, ознакомиться с его содержанием мог любой интернет-пользователь.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

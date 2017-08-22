@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ПЕКИН, 19 января. /Корр. ТАСС Роман Баландин/. Китай выделит 200 млн юаней (около $29,2 млн) для оказания гуманитарной помощи сирийским беженцам. Об этом во время посещения штаб-квартиры ООН в Женеве заявил председатель КНР Си Цзиньпин.</p>
+
+<p>"Китай принял решение выделить 200 млн юаней гуманитарной помощи для оказания содействия лишившимся крова сирийским беженцам", - приводятся в сообщении МИД КНР слова главы государства.</p>
+
+<p>"Терроризм, кризис с беженцами и другие проблемы связаны с геополитическими конфликтами. Урегулирование конфликтов является ключевым решением", - резюмировал Си Цзиньпин.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

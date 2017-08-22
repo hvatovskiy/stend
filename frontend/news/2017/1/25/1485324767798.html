@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>ЕКАТЕРИНБУРГ, 25 января. /ТАСС/. Четыре человека погибли в дорожно-транспортном происшествии с участием трех автомобилей на трассе М-5 "Урал" в Челябинской области. Об этом ТАСС сообщили в пресс-службе ГУ МВД по региону.</p>
+
+<p>"На 1827 километре федеральной автодороги М-5 в Чебаркульском районе Челябинской области произошло столкновение двух легковых и одного грузового автомобилей. Водитель Kia не справился с управлением и допустил столкновение с КамАЗом, от удара у грузовика отлетело колесо, которое попало в Lada Priora", - сказали там. В результате ДТП водитель и три пассажира Kia погибли на месте происшествия.</p>
+
+<p>По данным полиции, КамАЗ осуществлял уборку снега. Ведомство проводит проверку по факту ДТП.</p>
+
+<p>Ранее ТАСС сообщал, что в аварии в Челябинской области пострадали четыре человека. Для ликвидации последствий ДТП было задействовано от МЧС 4 человека и 1 единица техники.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

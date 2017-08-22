@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 30 января. /ТАСС/. Мужской клубный чемпионат мира по волейболу 2017 года пройдет в Польше. Об этом сообщает пресс-служба Международной федерации волейбола.</p>
+
+<p>Соревнования, в которых примут участие восемь команд, состоятся 11-17 декабря.</p>
+
+<p>Клубный чемпионат мира по волейболу среди мужских команд проводится с 1989 года. Польша примет турнир впервые. Ранее турнир проходил в Италии, Бразилии и Катаре.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

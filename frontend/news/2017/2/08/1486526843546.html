@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 8 февраля. /ТАСС/. Специалисты российского Центра по примирению в Сирии за минувшие сутки раздали жителям Алеппо 3,3 тонны хлеба, сообщается в информационном бюллетене Центра.</p>
+
+<p>"В течение суток российским Центром по примирению враждующих сторон проведено пять гуманитарных акций, в ходе которых произведена передача 2,5 тысячам мирных жителей 3,3 тонны хлеба", - говорится в сообщении.</p>
+
+<p>Отмечается, что с начала года российские военные доставили населению Сирии более 130 тонн гуманитарных грузов.</p>
+
+<p>"Гуманитарные акции других иностранных государств и международных организаций на территории Сирийской Арабской Республики в течение суток не проводились", - добавляется в бюллетене.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

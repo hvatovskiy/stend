@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 30 января. /ТАСС/. Российский сноубордист Богдан Богданов завоевал золотую медаль в параллельном гигантском слаломе на Универсиаде, которая проходит в Алма- Ате.</p>
+
+<p>В финальном заезде он опередил своего соотечественника Владислава Шкурихина. Третьим стал украинец Александр Белинский.</p>
+
+<p>Соревнования сноубордистов на Универсиаде завершатся 7 февраля.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

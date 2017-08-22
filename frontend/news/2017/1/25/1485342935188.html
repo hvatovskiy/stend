@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>АСТАНА, 25 января. /Корр. ТАСС Светлана Тумакова/. Президент Казахстана Нурсултан Назарбаев выступит со специальным обращением в эфире республиканских телеканалов в 21:00 (18:00 мск), сообщила его пресс-служба.</p>
+
+<p>"В эфире республиканских телеканалов ожидается специальное обращение главы государства", - говорится в информации, размещенной на официальном сайте президента.</p>
+
+<p>О поводе и теме обращения не сообщается.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

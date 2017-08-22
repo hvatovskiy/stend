@@ -1,0 +1,14 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 15 февраля. /ТАСС/. Курс доллара к рублю на открытии торгов Московской биржи снизился на 26 копеек по сравнению с уровнем закрытия предыдущих торгов и составил 56,84 рубля.<br />
+Таким образом, курс доллара опустился ниже отметки 57 рублей впервые с 22 июля 2015 года.</p>
+
+<p>Курс евро по состоянию на 10:11 мск снизился на 20 копеек, составив 60,4 рубля.</p>
+
+<p>Стоимость фьючерса на нефть марки Brent с поставкой в апреле 2017 года в ходе торгов на бирже ICE в Лондоне уменьшилась на 0,2%, до отметки $55,68 за баррель.</p>
+
+<p>Индекс ММВБ снизился на 0,5% и составил 2131,84 пункта, а индекс РТС вырос на 0,2%, до отметки 1177,79 пункта.</p>
+
+<p> </p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

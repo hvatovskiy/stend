@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 19 января. /ТАСС/. Авиакомпания "Икар" в феврале откроет рейсы из Жуковского в Тель-Авив (Израиль), следует из данных онлайн табло подмосковного аэропорта.</p>
+
+<p>Первый рейс планируется выполнить 14 февраля. Рейсы будут выполняться по вторникам, четвергам и воскресеньям на самолетах Boeing 737-800 (вместимость -189 пассажиров). Время вылета рейсов во вторник и четверг - 8:00 мск, в воскресенье - 8:30 мск.</p>
+
+<p>Сейчас из Жуковского, открытого в мае 2016 года, летают две российские компании "Уральские авиалинии" и "Ямал", а также два зарубежных перевозчиков - "Эир Манас" (Киргизия) и "Белавиа" (Белоруссия). Из аэропорта осуществляются рейсы в Минск, Ош, Бишкек и в Астану. Также планируется, что в ближайшее время из аэропорта будут открыты рейсы в Бургас (Болгария), Бухару (Узбекистан), Стамбул (Турция), Бангкок (Таиланд).</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

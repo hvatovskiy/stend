@@ -1,0 +1,13 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 19 января. /ТАСС/ "Транснефть" приостановила отгрузку нефти в порту Новороссийска из-за шторма, сообщил журналистам официальный представитель компании Игорь Демин.</p>
+
+<p>"Со вчерашнего вечера в Новороссийске шторм. Ветер 25 метров в секунду, волна до двух метров. Работы остановлены", - сказал он.</p>
+
+<p>Демин добавил, что в остальных портах погода "рабочая", отгрузка идет по графику.</p>
+
+<p>"В Приморске толщина льда увеличилась до 20 см. Ледокол "Владивосток" регулярно чистит фарватер. Опаздывающих танкеров нет", - отметил официальный представитель "Транснефти".</p>
+
+<p>Кроме того, Демин сообщил, что прием нефти в систему и поставка на заводы ведутся штатно.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

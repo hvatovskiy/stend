@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>Писатель Захар Прилепин на пресс-конференции в ТАСС рассказывает о создании своей новой книги "Взвод. Офицеры и ополченцы русской литературы". В роман вошли 11 биографий писателей и поэтов Золотого века, участвовавших в сражениях и вооруженных конфликтах. </p>
+
+<p>В мероприятии также принимают участие научный директор Российского военно-исторического общества, заведующий центром войн и геополитики Института всеобщей истории РАН Михаил Мягков и PR-директор Издательской группы "Эксмо-АСТ" Екатерина Кожанова.</p>
+
+<p> </p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

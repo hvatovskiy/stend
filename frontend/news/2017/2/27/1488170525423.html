@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 27 февраля. /ТАСС/. "Коламбус" победил "Рейнджерс" со счетом 5:2 в гостевом матче регулярного чемпионата Национальной хоккейной лиги (НХЛ).</p>
+
+<p>В составе победителей шайбы забросили Александер Веннберг (2-я и 30-я минуты), Кэм Аткинсон (7, 45) и Джош Андерсон (60). У хозяев отличился Рик Нэш (5) и Йеспер Фаст (60).</p>
+
+<p>Российский голкипер "Коламбуса" Сергей Бобровский отразил 28 бросков из 30, став третьей звездой матча.</p>
+
+<p>В других матчах "Каролина" дома уступила "Калгари" (1:3), "Нэшвилл" на своем льду победил "Эдмонтон" (5:4), "Бостон" в гостях был сильнее "Далласа" - 6:3.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

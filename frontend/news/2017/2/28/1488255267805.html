@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p><strong>Во вторник проходит второй день Российского инвестиционного форума в Сочи. </strong></p>
+
+<p><strong>Инвестфорум в Сочи - современная площадка для конструктивного диалога бизнеса и власти, созданная при поддержке правительства РФ для решения вопросов развития мировой экономики, обсуждения перспектив инвестиционного и инновационного будущего страны, а также презентации масштабных инвестиционных проектов регионов России.</strong></p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

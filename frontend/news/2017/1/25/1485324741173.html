@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 25 января. /ТАСС/. Реализация непищевой спиртосодержащей продукции будет ограничена в регионах РФ еще на 60 дней, сообщили в пресс-службе Роспотребнадзора.</p>
+
+<p>По данным ведомства, власти регионов поддержали 30-дневный запрет на продажу, введенный 26 декабря, и отметили, что он "не оказал негативного воздействия на экономическую деятельность легального и добросовестного бизнеса".</p>
+
+<p>"В связи с этим Роспотребнадзором подготовлено предложение о продлении сроков ограничения реализации отдельных видов спиртосодержащей непищевой продукции на 60 дней, которое поддержано председателем правительства Российской Федерации Д. А. Медведевым", - говорится в сообщении пресс-службы.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

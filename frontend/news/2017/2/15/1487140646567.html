@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 15 февраля. /ТАСС/. Московское центральное кольцо (МЦК) перевезло накануне более 331 тыс. человек, что стало новым суточным рекордом пассажиропотока. Об этом сообщили в пресс-службе Московской железной дороги.</p>
+
+<p>"Вчера был установлен новый рекорд: кольцом воспользовались более 331 тыс. пассажиров. А всего с начала года "Ласточки" на МЦК перевезли более 10 млн человек", - уточнили в пресс-службе.</p>
+
+<p>МЦК было запущено в сентябре прошлого года. Для пассажиров доступна 31 станция.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>КРАСНОЯРСК, 15 февраля. /ТАСС/. Пассажирский самолет авиакомпании China Eastern Airlines, следовавший по маршруту Лондон - Шанхай, совершил экстренную посадку в аэропорту Красноярска, сообщили ТАСС в пресс-службе аэропорта.</p>
+
+<p>"Самолет Airbus 330-300 совершил посадку по техническим причинам в аэропорту Красноярск. Посадка была совершена в 11:00 - 11:05 красноярского времени (7:00 - 7:05 мск). Сейчас технические службы аэропорта обследуют самолет", - сказал собеседник агентства.</p>
+
+<p>На борту самолета находилось 186 пассажиров и 17 членов экипажа. Пассажиры размещены в трансфертном зале ожиданий.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

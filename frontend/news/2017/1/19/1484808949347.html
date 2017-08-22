@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 19 января. /ТАСС/. Чистая прибыль компании Sakhalin Energy в январе-сентябре 2016 г. снизилась в 3 раза по сравнению с показателем за аналогичный период 2015 года и составила 32,009 млрд руб. Об этом говорится в отчете "Газпрома" по международным стандартам финансовой отчетности (МСФО).</p>
+
+<p>Выручка Sakhalin Energy за отчетный период составила 215,685 млрд руб., снизившись на 25%.</p>
+
+<p>Sakhalin Energy является оператором проекта "Сахалин - 2" - пока единственного в РФ действующего проекта по производству СПГ. В рамках проекта "Сахалин - 2" осваиваются Пильтун-Астохское и Лунское месторождения сахалинского шельфа, извлекаемые запасы которых оцениваются в 150 млн т нефти и 500 млрд куб. м газа. Акционеры Sakhalin Energy - "Газпром" (50%), Royal Dutch Shell (27,5%), японские Mitsui (12,5%) и Mitsubishi (10%).</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

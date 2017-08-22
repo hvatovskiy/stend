@@ -1,0 +1,25 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 1 февраля. /ТАСС/. Футболисты "Челси" сыграли вничью с "Ливерпулем" со счетом 1:1 в гостевом матче 23-го тура чемпионата Англии.</p>
+
+<p>В составе "Челси" гол на 24-й минуте встречи забил Давид Луис. У "Ливерпуля" отличился Джоржиньо Вейналдум (57).</p>
+
+<p>"Челси" возглавляет турнирную таблицу лиги, набрав 56 очков. "Ливерпуль идет четвертым, имея в активе 46 баллов.</p>
+
+<p>В следующем туре "Ливерпуль" 4 февраля сыграет в гостях против "Халла". В тот же день "Челси" примет "Арсенал".</p>
+
+<p>В параллельном матче "Арсенал" дома уступил "Уотфорду" со счетом 1:2.</p>
+
+<p>Остальные результаты игрового дня:</p>
+
+<p>"Бернли" - "Лестер - 1:0;</p>
+
+<p>"Борнмут" - "Кристал Пэлас" - 0:2;</p>
+
+<p>"Мидлсбро" - "Вест Бромвич" - 1:1;</p>
+
+<p>"Сандерленд" - "Тоттенхэм" - 0:0;</p>
+
+<p>"Суонси" - "Саутгемптон" - 2:1.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

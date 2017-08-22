@@ -1,0 +1,7 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 19 января. /ТАСС/. Курс доллара к рублю на Московской бирже на открытии торгов в четверг снизился по сравнению с уровнем закрытия предыдущих торгов на 14 копеек и составил 59,42 рубля.</p>
+
+<p>Индекс ММВБ на открытии торгов Московской биржи вырос на 0,2%, и достиг уровня 2175,18 пункта. </p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

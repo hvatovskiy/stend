@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 10 февраля. /ТАСС/. В результате пожара в квартире на северо-востоке Москвы погибли три человека, сообщили ТАСС в медицинских кругах столицы.</p>
+
+<p>Пожар произошел на третьем этаже в квартире дома 26 в Путевом проезде. На пожаре сотрудниками МЧС было спасено и эвакуировано 15 человек, в горящей квартире обнаружены тела двух людей.</p>
+
+<p>"В машине скорой помощи скончался еще один человек, которого пожарные вынесли из горящей квартиры. Пострадавший получил сильное отравление дымом и ожоги тела, спасти его, несмотря на реанимационные действия, не удалось", - сказал собеседник агентства.</p>
+
+<p>Пожар полностью ликвидирован, его причина устанавливается. На месте ЧП работает следственно-оперативная группа.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

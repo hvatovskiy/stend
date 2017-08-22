@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 28 февраля. /ТАСС/. Облачность с прояснениями и местами небольшие осадки ожидаются в столичном регионе 28 февраля. Как сообщили в Гидрометцентре РФ, в последний день зимы будет тепло и очень скользко.</p>
+
+<p>"Температура воздуха в Москве после морозной ночи составит 1-3 градуса выше нуля, по области будет от минус 2 до плюс 3 градусов", - уточнил представитель метеослужбы. Ветер ожидается юго-западный и южный, его скорость составит 5-10 м/с.</p>
+
+<p>В среду будет облачно с прояснениями и с небольшими осадками. Температура первой весенней ночи составит 1-3 градуса тепла, в Подмосковье будет от минус 2 до плюс 3 градусов.</p>
+
+<p>Днем в столице воздух прогреется до 4-6 градусов, по области будет от 1 до 6 градуса выше нуля. Ветер прогнозируется южный, 5-10 м/с, местами с порывами 12-17 м/ с. Местами не исключена гололедица.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

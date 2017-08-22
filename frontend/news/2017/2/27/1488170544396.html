@@ -1,0 +1,11 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 27 февраля. /ТАСС/. Футболисты римской "Ромы" победили в гостях миланский "Интер" со счетом 3:1 в матче 26-го тура чемпионата Италии.</p>
+
+<p>В составе победителей дубль оформил Раджа Найнгголан, отличившийся на 12-й и 56-й минутах. Еще один гол у гостей забил Диего Перотти (85). В составе хозяев голом отметился Мауро Икарди (81).</p>
+
+<p>"Рома" занимает второе место в турнирной таблице, набрав 59 очков в 26 матчах и отставая от лидера "Ювентуса" на семь баллов. "Интер" находится на шестой строчке - 48 очков в 26 играх.</p>
+
+<p>В следующем туре "Рома" примет "Наполи" 4 марта. "Интер" на следующий день сыграет в гостях с "Кальяри".</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>

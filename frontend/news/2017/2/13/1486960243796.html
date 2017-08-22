@@ -1,0 +1,9 @@
+<div class="b-material-text__l js-mediator-article">
+                <p>МОСКВА, 12 февраля. /ТАСС/. Российские дзюдоисты завоевали серебряную и бронзовую медаль на турнире Большого шлема, который завершился в Париже.</p>
+
+<p>Обе награды россияне завоевали в первый день соревнований - Анзаур Арданов выиграл серебро в весовой категории до 66 кг, бронза досталась Наталье Кузютиной, выступающей в категории до 52 кг.</p>
+
+<p>Во второй день турнира российские спортсмены не смогли завоевать медалей.</p>
+                <div id="block_material_text_broadcast" class="quotes" ng-cloak data-ng-controller="TASS_textBroadcastCtrl" data-ng-init="init({ fetchItemsCount:15, perPageItemsCount:10 })">
+                    <div data-ng-repeat="item in getItems() | orderBy:'-time' | limitTo:params.fetchItemsCount" class="box">
+                        <div class="topDate text-broadcast-group-{{item.strong_group_date}}" data-group="{{item.strong_group_date}}" data-ng-hide="!item.group_date"><span>{{item.group_date}}</span></div>
