@@ -52,6 +52,7 @@ AppAsset::register($this);
             )
             . Html::endForm()
             . '</li>';
+        $menuItems[] = ['label' => Yii::t('app','Трафик'), 'url' => ['/site/trafic']];
     }
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
