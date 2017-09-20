@@ -12,6 +12,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use frontend\models\article\Article;
 
 /**
  * Site controller
@@ -226,4 +227,16 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+    public function actionTrafic()
+    {
+        //$model= new Article();
+        //$id=6129;
+        $model=Article::find()->all();
+        //$path=Yii::$app->basePath . "/" .$model->newarticleurl ;
+        $path="C:/xampp/htdocs/stend/frontend/".$model[1]->newarticleurl ;
+       return $this->render('trafic', ['path'=> $path]);
+    }
+
+
 }
