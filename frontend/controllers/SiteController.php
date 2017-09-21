@@ -1,6 +1,6 @@
 <?php
 namespace frontend\controllers;
-
+$i=0;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -14,11 +14,13 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\article\Article;
 
+
 /**
  * Site controller
  */
 class SiteController extends Controller
 {
+
     /**
      * @inheritdoc
      */
@@ -231,11 +233,17 @@ class SiteController extends Controller
     public function actionTrafic()
     {
         //$model= new Article();
-        //$id=6129;
+        if(!(Yii::$app->request->get('i'))) $i=0;
+        else {
+            $i = Yii::$app->request->get('i');
+            $i++;
+        }
+
         $model=Article::find()->all();
         //$path=Yii::$app->basePath . "/" .$model->newarticleurl ;
-        $path="C:/xampp/htdocs/stend/frontend/".$model[1]->newarticleurl ;
-       return $this->render('trafic', ['path'=> $path]);
+       // $path="C:/xampp/htdocs/stend/frontend/".$model[3]->newarticleurl ;
+
+       return $this->render('trafic', ['model'=> $model,'i'=>$i]);
     }
 
 
