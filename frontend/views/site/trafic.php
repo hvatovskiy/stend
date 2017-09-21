@@ -7,8 +7,14 @@ use yii\helpers\Html;
 <?php
 $script = <<< JS
 $(document).ready(function() {
-    setInterval(function(){ $("#refreshButton").click(); }, 10000);
+    setInterval(function(){ $("#refreshButton").click(); }, 1000); //10 sec
 });
+                                        
+
+// каждый раз передаю всю выборку, передавать нужно только 1 статью
+// каждый раз передаю всю выборку, передавать нужно только 1 статью
+// каждый раз передаю всю выборку, передавать нужно только 1 статью
+
 
 JS;
 $this->registerJs($script);
@@ -17,8 +23,11 @@ $this->registerJs($script);
 
 <?php
 Pjax::begin(); ?>
-<?php   $path="C:/xampp/htdocs/stend/frontend/".$model[$i]->newarticleurl ;  ?>
+
+<?php  $dir=str_replace('\\',"/",Yii::$app->basePath);
+$path=$model[$i]->newarticleurl;
+if(file_exists($dir.'/'.$path))$article=file_get_contents($dir.'/'.$path) ; else $article="добавить эту статейку" ?>
 <?= Html::a("Обновить", ["site/trafic?i=$i"], ['class' => 'btn btn-lg btn-primary','id' => 'refreshButton']) ?>
-    <h1> <?= $path; ?></h1>
+    <h1> <?= $article; ?></h1>
 <?php Pjax::end(); ?>
 

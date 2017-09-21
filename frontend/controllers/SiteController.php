@@ -233,13 +233,17 @@ class SiteController extends Controller
     public function actionTrafic()
     {
         //$model= new Article();
-        if(!(Yii::$app->request->get('i'))) $i=0;
+        $model=Article::find()->all();
+        $count=Article::find()->count();
+        if(!(Yii::$app->request->get('i'))) $i=1;
         else {
             $i = Yii::$app->request->get('i');
-            $i++;
+            if($i<$count)$i++;
+            else $i=1;
+
         }
 
-        $model=Article::find()->all();
+
         //$path=Yii::$app->basePath . "/" .$model->newarticleurl ;
        // $path="C:/xampp/htdocs/stend/frontend/".$model[3]->newarticleurl ;
 
